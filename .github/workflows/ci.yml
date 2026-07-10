@@ -24,6 +24,10 @@ jobs:
       - name: Run application
         run: python app.py
 
+      # Enchancement Step: Print Python version
+      - name: Print Python version
+        run: python --version
+
       # Step 4: Echo success message
       - name: Build Success
         run: echo "CI Pipeline executed successfully!"
